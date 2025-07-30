@@ -1,7 +1,7 @@
 #Install requests using :- pip install request
 import requests
 def get_weather(city):
-    API_KEY="79e7ae0e0c9149265b5ce7d435b69745"
+    API_KEY="YOUR API KEY"
     BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
     params={'q':city, 'appid':API_KEY,'units':'metric'}
